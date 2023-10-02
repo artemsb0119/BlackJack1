@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageViewFon2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageHome"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:adjustViewBounds="true"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:layout_marginStart="10dp"
+        android:scaleType="centerCrop"
+        android:scaleX="1.2"
+        android:scaleY="1.2"
+        android:src="@drawable/home"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/textViewScore"
+        app:layout_constraintBottom_toBottomOf="@id/textViewScore"/>
+
+    <ImageView
+        android:id="@+id/imageRestart"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:adjustViewBounds="true"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:layout_marginEnd="10dp"
+        android:scaleType="centerCrop"
+        android:scaleX="1.2"
+        android:scaleY="1.2"
+        android:src="@drawable/restart"
+        app:layout_constraintTop_toTopOf="@id/textViewScore"
+        app:layout_constraintBottom_toBottomOf="@id/textViewScore"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <ImageView
+        android:id="@+id/imageCardBack"
+        android:layout_width="85dp"
+        android:layout_height="145dp"
+        android:layout_margin="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageCardFront"
+        android:layout_width="85dp"
+        android:layout_height="145dp"
+        android:layout_margin="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageJack"
+        android:layout_width="60dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="60dp"
+        app:layout_constraintBottom_toTopOf="@id/textViewStavka"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageJack2"
+        android:layout_width="60dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintBottom_toTopOf="@id/textViewStavka"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageJack3"
+        android:layout_width="60dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="20dp"
+        app:layout_constraintBottom_toTopOf="@id/textViewStavka"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageJack4"
+        android:layout_width="60dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="60dp"
+        app:layout_constraintBottom_toTopOf="@id/textViewStavka"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageJack5"
+        android:layout_width="60dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="100dp"
+        app:layout_constraintBottom_toTopOf="@id/textViewStavka"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageJack6"
+        android:layout_width="60dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="140dp"
+        app:layout_constraintBottom_toTopOf="@id/textViewStavka"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageJack7"
+        android:layout_width="60dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="180dp"
+        app:layout_constraintBottom_toTopOf="@id/textViewStavka"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageJack8"
+        android:layout_width="60dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="220dp"
+        app:layout_constraintBottom_toTopOf="@id/textViewStavka"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageJack9"
+        android:layout_width="60dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="260dp"
+        app:layout_constraintBottom_toTopOf="@id/textViewStavka"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageJohn"
+        android:layout_width="60dp"
+        android:layout_height="130dp"
+        android:layout_marginEnd="60dp"
+        app:layout_constraintBottom_toTopOf="@id/buttonJack"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewStavka" />
+
+    <ImageView
+        android:id="@+id/imageJohn2"
+        android:layout_width="60dp"
+        android:layout_height="130dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintBottom_toTopOf="@id/buttonJack"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewStavka" />
+
+    <ImageView
+        android:id="@+id/imageJohn3"
+        android:layout_width="60dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="20dp"
+        app:layout_constraintBottom_toTopOf="@id/buttonJack"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewStavka" />
+
+    <ImageView
+        android:id="@+id/imageJohn4"
+        android:layout_width="60dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="60dp"
+        app:layout_constraintBottom_toTopOf="@id/buttonJack"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewStavka" />
+
+    <ImageView
+        android:id="@+id/imageJohn5"
+        android:layout_width="60dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="100dp"
+        app:layout_constraintBottom_toTopOf="@id/buttonJack"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewStavka" />
+
+    <ImageView
+        android:id="@+id/imageJohn6"
+        android:layout_width="60dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="140dp"
+        app:layout_constraintBottom_toTopOf="@id/buttonJack"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewStavka" />
+
+    <ImageView
+        android:id="@+id/imageJohn7"
+        android:layout_width="60dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="180dp"
+        app:layout_constraintBottom_toTopOf="@id/buttonJack"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewStavka" />
+
+    <ImageView
+        android:id="@+id/imageJohn8"
+        android:layout_width="60dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="220dp"
+        app:layout_constraintBottom_toTopOf="@id/buttonJack"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewStavka" />
+
+    <ImageView
+        android:id="@+id/imageJohn9"
+        android:layout_width="60dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="260dp"
+        app:layout_constraintBottom_toTopOf="@id/buttonJack"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewStavka" />
+
+    <TextView
+        android:id="@+id/textViewJohn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="0"
+        android:textSize="30sp"
+        android:textStyle="italic|bold"
+        android:textColor="?attr/colorOnPrimary"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/imageJohn"
+        app:layout_constraintBottom_toBottomOf="@id/imageJohn" />
+
+    <TextView
+        android:id="@+id/textViewJack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="0"
+        android:textSize="30sp"
+        android:textStyle="italic|bold"
+        android:textColor="?attr/colorOnPrimary"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/imageJack"
+        app:layout_constraintBottom_toBottomOf="@id/imageJack" />
+
+    <TextView
+        android:id="@+id/textViewJackName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jack"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:textColor="?attr/colorOnPrimary"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/imageJack" />
+
+    <TextView
+        android:id="@+id/textViewJohnName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="John"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textColor="?attr/colorOnPrimary"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageJohn" />
+
+    <TextView
+        android:id="@id/textViewScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score: "
+        android:textSize="40sp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:textStyle="italic|bold"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/textview_white"
+        android:textColor="?attr/colorPrimaryVariant"
+        app:layout_constraintStart_toStartOf="@id/imageHome"
+        app:layout_constraintEnd_toEndOf="@id/imageRestart"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonJack"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/button"
+        android:padding="10dp"
+        android:text="Jack"
+        android:textColor="?attr/colorOnPrimary"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/buttonX"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonX"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/button"
+        android:padding="10dp"
+        android:text="X"
+        android:textColor="?attr/colorOnPrimary"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/buttonJohn"
+        app:layout_constraintStart_toEndOf="@id/buttonJack" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonJohn"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/button"
+        android:padding="10dp"
+        android:text="John"
+        android:textColor="?attr/colorOnPrimary"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/buttonX" />
+
+    <TextView
+        android:id="@+id/textViewStavka"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="50dp"
+        android:layout_marginStart="50dp"
+        android:background="@drawable/textview_white"
+        android:paddingTop="9dp"
+        android:paddingBottom="9dp"
+        android:paddingEnd="10dp"
+        android:textAlignment="textEnd"
+        android:text="0"
+        android:textColor="?attr/colorPrimaryVariant"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toEndOf="@id/imageCardBack"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/imageCardBack"
+        app:layout_constraintBottom_toBottomOf="@id/imageCardBack"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
